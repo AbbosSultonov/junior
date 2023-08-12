@@ -1,0 +1,109 @@
+<!DOCTYPE    html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="box">
+    <div class="input-div">
+        <button class="C-style" onclick="
+                number = ''
+                inputElement()"
+        >C
+        </button>
+        <input type="text" class="input-style">
+    </div>
+    <div class="button-div">
+        <button class="number-style" onclick="
+                number += '1'
+                inputElement()
+                ">1
+        </button>
+        <button class="number-style" onclick="
+                number += '2'
+                inputElement()"
+        >2
+        </button>
+        <button class="number-style" onclick="
+                number += '3'
+                inputElement()"
+        >3
+        </button>
+        <button class="button-style" onclick="
+                number += '+'
+                inputElement()"
+        >+
+        </button>
+        <button class="number-style" onclick="
+                number += '4'
+                inputElement()"
+        >4
+        </button>
+        <button class="number-style" onclick="
+                number += '5'
+                inputElement()"
+        >5
+        </button>
+        <button class="number-style" onclick="
+                number += '6'
+                inputElement()"
+        >6
+        </button>
+        <button class="button-style" onclick="
+                number += '-'
+                inputElement()"
+        >-
+        </button>
+        <button class="number-style" onclick="
+                number += '7'
+                inputElement()"
+        >7
+        </button>
+        <button class="number-style" onclick="
+                number += '8'
+                inputElement()"
+        >8
+        </button>
+        <button class="number-style" onclick="
+                number += '9'
+                inputElement()"
+        >9
+        </button>
+        <button class="button-style" onclick="
+                number += 'x'
+                inputElement()"
+        >x
+        </button>
+        <button class="number-style" onclick="
+                number += '.'
+                inputElement()"
+        >.
+        </button>
+        <button class="number-style" onclick="
+                number += '0'
+                inputElement()"
+        >0
+        </button>
+        <button class="style" onclick="
+                answer()"
+        >=
+        </button>
+        <button class="button-style" onclick="
+                number += '/'
+                inputElement()"
+        >/
+        </button>
+    </div>
+
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
