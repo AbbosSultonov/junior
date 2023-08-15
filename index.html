@@ -12,9 +12,10 @@
 
 <div class="box">
     <div class="input-div">
-        <button class="C-style" onclick="
+        <button class="C-style" id="C-Id" onclick="
                 number = ''
-                inputElement()"
+                inputElement()
+                buttonFunc()"
         >C
         </button>
         <input type="text" class="input-style">
@@ -35,9 +36,12 @@
                 inputElement()"
         >3
         </button>
-        <button class="button-style" onclick="
+        <button class="button-style" id="buttonStylePlus" onclick="
+
                 number += '+'
-                inputElement()"
+                inputElement()
+                buttonFunc()
+                "
         >+
         </button>
         <button class="number-style" onclick="
@@ -55,9 +59,10 @@
                 inputElement()"
         >6
         </button>
-        <button class="button-style" onclick="
+        <button class="button-style" id="buttonStyleMinus" onclick="
                 number += '-'
-                inputElement()"
+                inputElement()
+                buttonFunc()"
         >-
         </button>
         <button class="number-style" onclick="
@@ -75,9 +80,10 @@
                 inputElement()"
         >9
         </button>
-        <button class="button-style" onclick="
+        <button class="button-style" id="buttonStyleX" onclick="
                 number += 'x'
-                inputElement()"
+                inputElement()
+                buttonFunc()"
         >x
         </button>
         <button class="number-style" onclick="
@@ -94,9 +100,10 @@
                 answer()"
         >=
         </button>
-        <button class="button-style" onclick="
+        <button class="button-style" id="buttonStyle" onclick="
                 number += '/'
-                inputElement()"
+                inputElement()
+                buttonFunc()"
         >/
         </button>
     </div>
